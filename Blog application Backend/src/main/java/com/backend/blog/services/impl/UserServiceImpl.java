@@ -13,12 +13,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.codewithdurgesh.blog.exceptions.*;
+import com.backend.blog.exceptions.*;
 import com.backend.blog.payloads.UserDto;
 import com.backend.blog.services.UserService;
-import com.codewithdurgesh.blog.repositories.*;
+import com.backend.blog.repositories.*;
 import com.backend.blog.config.AppConstants;
-import com.codewithdurgesh.blog.entities.*;
+import com.backend.blog.entities.*;
 
 @Service
 public class UserServiceImpl implements UserService {
